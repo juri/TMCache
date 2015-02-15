@@ -63,32 +63,32 @@
 
 /* Begin PBXFileReference section */
 		662900111A66B60D009C10BD /* TMCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		662900141A66B60D009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662900141A66B60D009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "OS X/Info.plist"; sourceTree = "<group>"; };
 		6629FFED1A66B512009C10BD /* TMCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6629FFF01A66B512009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6629FFF01A66B512009C10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = tests/iOS/Info.plist; sourceTree = "<group>"; };
 		D07F1EB2171AFB7A001DBA02 /* TMCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F1EB5171AFB7A001DBA02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D07F1EB7171AFB7A001DBA02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D07F1EB9171AFB7A001DBA02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D07F1EBD171AFB7A001DBA02 /* TMCache-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMCache-Info.plist"; sourceTree = "<group>"; };
-		D07F1EC1171AFB7A001DBA02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D07F1EC3171AFB7A001DBA02 /* TMCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMCache-Prefix.pch"; sourceTree = "<group>"; };
-		D07F1EC4171AFB7A001DBA02 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
-		D07F1EC5171AFB7A001DBA02 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
-		D07F1ECB171AFB7A001DBA02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D07F1EBD171AFB7A001DBA02 /* TMCache-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TMCache-Info.plist"; path = "../tests/TMCache/TMCache-Info.plist"; sourceTree = "<group>"; };
+		D07F1EC1171AFB7A001DBA02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../tests/TMCache/main.m; sourceTree = "<group>"; };
+		D07F1EC3171AFB7A001DBA02 /* TMCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TMCache-Prefix.pch"; path = "../tests/TMCache/TMCache-Prefix.pch"; sourceTree = "<group>"; };
+		D07F1EC4171AFB7A001DBA02 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TMAppDelegate.h; path = ../tests/TMCache/TMAppDelegate.h; sourceTree = "<group>"; };
+		D07F1EC5171AFB7A001DBA02 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TMAppDelegate.m; path = ../tests/TMCache/TMAppDelegate.m; sourceTree = "<group>"; };
+		D07F1ECB171AFB7A001DBA02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../tests/TMCache/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D07F1ED2171AFB7A001DBA02 /* TMCacheTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMCacheTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F1ED3171AFB7A001DBA02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D07F1EDB171AFB7A001DBA02 /* TMCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMCacheTests-Info.plist"; sourceTree = "<group>"; };
-		D07F1EDF171AFB7A001DBA02 /* TMCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCacheTests.h; sourceTree = "<group>"; };
-		D07F1EE0171AFB7A001DBA02 /* TMCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCacheTests.m; sourceTree = "<group>"; };
-		D0E5D83A171DF0AF0041E777 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
-		D0E5D83B171DF0AF0041E777 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
-		D0E5D83C171DF0AF0041E777 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
-		D0E5D83D171DF0AF0041E777 /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TMDiskCache.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		D0E5D83E171DF0AF0041E777 /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
-		D0E5D83F171DF0AF0041E777 /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
-		D0E5D846171DF0FA0041E777 /* TMExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMExampleView.h; sourceTree = "<group>"; };
-		D0E5D847171DF0FA0041E777 /* TMExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMExampleView.m; sourceTree = "<group>"; };
+		D07F1EDB171AFB7A001DBA02 /* TMCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "TMCacheTests-Info.plist"; path = "tests/TMCacheTests/TMCacheTests-Info.plist"; sourceTree = "<group>"; };
+		D07F1EDF171AFB7A001DBA02 /* TMCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TMCacheTests.h; path = tests/TMCacheTests/TMCacheTests.h; sourceTree = "<group>"; };
+		D07F1EE0171AFB7A001DBA02 /* TMCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TMCacheTests.m; path = tests/TMCacheTests/TMCacheTests.m; sourceTree = "<group>"; };
+		D0E5D83A171DF0AF0041E777 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = TMCache/TMCache.h; sourceTree = "<group>"; };
+		D0E5D83B171DF0AF0041E777 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = TMCache/TMCache.m; sourceTree = "<group>"; };
+		D0E5D83C171DF0AF0041E777 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = TMCache/TMDiskCache.h; sourceTree = "<group>"; };
+		D0E5D83D171DF0AF0041E777 /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TMDiskCache.m; path = TMCache/TMDiskCache.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D0E5D83E171DF0AF0041E777 /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
+		D0E5D83F171DF0AF0041E777 /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
+		D0E5D846171DF0FA0041E777 /* TMExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMExampleView.h; path = ../tests/TMCache/TMExampleView.h; sourceTree = "<group>"; };
+		D0E5D847171DF0FA0041E777 /* TMExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMExampleView.m; path = ../tests/TMCache/TMExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -764,6 +764,7 @@
 				662900081A66B513009C10BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6629002A1A66B60D009C10BD /* Build configuration list for PBXNativeTarget "OS X" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +773,7 @@
 				6629002C1A66B60D009C10BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D07F1EAD171AFB7A001DBA02 /* Build configuration list for PBXProject "TMCache" */ = {
 			isa = XCConfigurationList;
